@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Impresión, sol naciente",
+    "autor": "Claude Monet",
+    "tecnica": "Óleo",
+    "anio": "1872",
+    "precio": 120000,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg",
+    "url": "https://es.wikipedia.org/wiki/Impresionismo"
+  },
+  {
+    "id": 2,
+    "titulo": "El nacimiento de Venus",
+    "autor": "Sandro Botticelli",
+    "tecnica": "Témpera",
+    "anio": "1485",
+    "precio": 250000,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1920px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    "url": "https://es.wikipedia.org/wiki/El_nacimiento_de_Venus_(Botticelli)"
+  },
+  {
+    "id": 3,
+    "titulo": "Saturno devorando a su hijo",
+    "autor": "Francisco de Goya",
+    "tecnica": "Óleo",
+    "anio": "1820",
+    "precio": 300000,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/800px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
+    "url": "https://es.wikipedia.org/wiki/Francisco_de_Goya"
+  },
+  {
+    "id": 4,
+    "titulo": "La Gioconda",
+    "autor": "Leonardo da Vinci",
+    "tecnica": "Óleo",
+    "anio": "1503",
+    "precio": 450000,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "url": "https://es.wikipedia.org/wiki/Leonardo_da_Vinci"
+  },
+  {
+    "id": 5,
+    "titulo": "Guernica",
+    "autor": "Pablo Picasso",
+    "tecnica": "Óleo",
+    "anio": "1937",
+    "precio": 380000,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
+    "url": "https://es.wikipedia.org/wiki/Pablo_Picasso"
+  },
+  {
+    "id": 6,
+    "titulo": "La noche estrellada",
+    "autor": "Vincent van Gogh",
+    "tecnica": "Óleo",
+    "anio": "1889",
+    "precio": 320000,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "url": "https://es.wikipedia.org/wiki/Vincent_van_Gogh"
+  }
+]

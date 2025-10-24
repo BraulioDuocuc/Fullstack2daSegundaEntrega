@@ -1,0 +1,13 @@
+/* Estilos básicos de la aplicación */
+.app-container {
+  min-height: 100vh;
+}
+
+.gif-header img {
+  height: 50px;
+}
+
+/* Asegurar que el contenido ocupe el alto disponible */
+.flex-grow-1 {
+  flex: 1;
+}

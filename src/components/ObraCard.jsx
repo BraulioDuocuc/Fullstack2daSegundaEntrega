@@ -12,10 +12,12 @@ function ObraCard({ obra }) {
   return (
     <div className="obra">
       <div>
-        <img src={obra.imagen} alt={obra.titulo} />
+        <a href={obra.url} target="_blank" rel="noopener noreferrer" aria-label={`Ver obra completa: ${obra.titulo}`}>
+          <img src={obra.imagen} alt={obra.titulo} />
+        </a>
         <div className="texto-obra">
           <h5 className="card-title">{obra.titulo}</h5>
-          <p className="card-text">{obra.autor} — {obra.tecnica}, {obra.anio}</p>
+          <p className="card-text">{obra.autor} — {obra.tecnica} · {obra.estilo}, {obra.anio}</p>
           <p className="fw-bold">${obra.precio.toLocaleString()}</p>
           <button 
             className={`btn ${isInCart ? 'btn-success' : 'btn-primary'}`} 

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="260" height="70" role="img" aria-labelledby="title desc">
+  <title id="title">Aisthetikê Logo</title>
+  <desc id="desc">Wordmark blanco con ornamentos curvos, fondo transparente para navbar oscuro</desc>
+  <defs>
+    <style>
+      .word {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 76px;
+        font-weight: 400;
+        fill: #ffffff;
+      }
+      .swash {
+        fill: none;
+        stroke: #ffffff;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .thin { stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Ornamento superior sutil -->
+  <path class="swash thin" d="M150 28c-22 9-28 19-24 27 5 11 26 12 49 3 22-8 45-20 64-21 22-1 38 9 47 18 8 9 19 14 33 13 14-1 25-9 32-15" />
+  <path class="swash" d="M136 26c-10 6-17 12-19 18-4 10 2 19 20 22" />
+
+  <!-- Palabra principal con acento circunflejo -->
+  <text x="28" y="93" class="word">Aisthetikê</text>
+
+  <!-- Pequeño acento curvo sobre la e para enfatizar el circunflejo -->
+  <path class="swash thin" d="M360 55c6-6 16-6 22 0" />
+
+  <!-- Ornamento inferior con curva amplia -->
+  <path class="swash" d="M42 92c12 28 42 40 84 12 30-20 57-22 84-10 20 9 39 29 58 32 23 4 46-6 65-20 25-19 39-16 52-2 9 10 18 17 33 20" />
+  <path class="swash thin" d="M58 118c-9-7-16-17-18-26" />
+</svg>

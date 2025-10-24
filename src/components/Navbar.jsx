@@ -14,7 +14,7 @@ function Navbar({ isLoggedIn, user, onLogout, onLogin }) {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="gif-header" to="/">
-            <img src="/assets/img/logo.png" alt="Logo Galería" />
+            <img src="/assets/img/logo.svg" alt="Aisthetikê - Galería de Arte" />
           </Link>
           <button
             className="navbar-toggler"

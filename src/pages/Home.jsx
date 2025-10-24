@@ -58,6 +58,7 @@ function Home() {
         <h1
           className="display-4 fw-bold mb-3"
           style={{ textShadow: '2px 2px 10px rgba(0,0,0,0.8)' }}
+          aria-label="Bienvenido a nuestra Tienda de Arte"
         >
           Aisthētikê
         </h1>

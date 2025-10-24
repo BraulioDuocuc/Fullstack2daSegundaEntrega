@@ -7,6 +7,7 @@ import Productos from './pages/Productos'
 import Footer from './components/Footer'
 import Mantenedor from './pages/Mantenedor'
 import Cart from './pages/Cart'
+import Categorias from './pages/Categorias'
 import { CartProvider } from './context/CartContext'
 import './App.css'
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/mantenedor" element={<Mantenedor />} />
             <Route path="/quienes-somos" element={<QuienesSomos />} />
             <Route path="/carrito" element={<Cart />} />
+            <Route path="/categorias" element={<Categorias />} />
           </Routes>
         </div>
         <Footer />

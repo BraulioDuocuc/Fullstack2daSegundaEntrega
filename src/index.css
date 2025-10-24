@@ -206,3 +206,36 @@ h2.fw-bold {
   transform: scale(1.03);
   opacity: 1;
 }
+/* 🔹 Botones de categorías */
+.categorias-botones {
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.categoria-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+  padding: 10px 22px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.categoria-btn:hover {
+  border-color: #fff;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.categoria-btn.active {
+  background: linear-gradient(135deg, #ffffff 0%, #dcdcdc 100%);
+  color: #000;
+  border-color: transparent;
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}

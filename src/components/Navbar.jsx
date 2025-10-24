@@ -37,6 +37,11 @@ function Navbar({ isLoggedIn, user, onLogout, onLogin }) {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/categorias">
+                  Categorías
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link position-relative" to="/carrito">
                   <i className="bi bi-cart3 me-1"></i>
                   Carrito

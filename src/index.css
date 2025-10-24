@@ -187,13 +187,29 @@ header p {
 
 /* Títulos de secciones */
 h2.fw-bold {
-  color: #fff;
+  color: #222;
   letter-spacing: 1px;
 }
+
+/* Overrides: Home (Galería Destacada) y Quiénes Somos en blanco */
+#galeria h2.fw-bold { color: #fff !important; }
+#quienes-somos h2.fw-bold { color: #fff !important; }
+#quienes-somos h4 { color: #fff !important; }
+#quienes-somos .text-muted { color: #fff !important; }
 
 /* Texto sutil */
 .text-muted {
   color: #bbb !important;
+}
+
+/* Párrafos en blanco globalmente */
+p {
+  color: #fff !important;
+}
+
+/* Párrafos con text-muted también en blanco */
+p.text-muted {
+  color: #fff !important;
 }
 
 /* Animación sutil para las obras del carrusel */
